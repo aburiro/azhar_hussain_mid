@@ -1,0 +1,741 @@
+.carely {
+  color: var(--primary);
+}
+.healhtycarely {
+  position: relative;
+  letter-spacing: 0.03em;
+}
+.this-free-app {
+  margin: 0;
+}
+.this-free-app-container {
+  position: relative;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.02em;
+  line-height: 20px;
+}
+.healhtycarely-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.checking-health,
+.overview {
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 28px;
+}
+.checking-health {
+  letter-spacing: 0.02em;
+  line-height: 20px;
+}
+.checking-health-parent,
+.overview-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.checking-health-parent {
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-sm);
+}
+.overview-parent {
+  gap: var(--gap-base);
+}
+.brand-facebook {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.brand-facebook-parent,
+.footer,
+.frame-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.brand-facebook-parent {
+  gap: var(--gap-3xs);
+}
+.footer,
+.frame-parent {
+  gap: 70px;
+  font-size: var(--font-size-xl);
+}
+.footer {
+  position: absolute;
+  top: 3946px;
+  left: 100px;
+  gap: 150px;
+  font-size: var(--font-size-5xl);
+}
+.testimonial-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-aliceblue);
+  width: 1340px;
+  height: 350px;
+}
+.healthycarely-is-an-container,
+.naufal-hidayat,
+.student-at-telkom {
+  position: absolute;
+  top: 100px;
+  left: 728px;
+  letter-spacing: 0.03em;
+  line-height: 40px;
+}
+.naufal-hidayat,
+.student-at-telkom {
+  top: 394px;
+  font-size: var(--font-size-xl);
+  line-height: 20px;
+}
+.student-at-telkom {
+  top: 428px;
+  font-size: var(--font-size-sm);
+  line-height: 14px;
+  color: var(--grey);
+}
+.testimonial-item {
+  position: absolute;
+  top: 80px;
+  left: 100px;
+  width: 433px;
+  height: 372px;
+  object-fit: cover;
+}
+.arrow-long-right,
+.arrow-long-right1 {
+  position: absolute;
+  top: 390px;
+  left: 1300px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+.arrow-long-right1 {
+  left: 1244px;
+}
+.testimonial1 {
+  position: absolute;
+  top: 121px;
+  left: 0;
+  width: 1340px;
+  height: 452px;
+}
+.our-patients-feedback,
+.their-impression-after {
+  position: absolute;
+  top: 51px;
+  left: 106px;
+  letter-spacing: 0.02em;
+  line-height: 20px;
+}
+.our-patients-feedback {
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-13xl);
+  line-height: 40px;
+  color: var(--black);
+  text-align: center;
+}
+.title {
+  position: absolute;
+  top: 0;
+  left: 470px;
+  width: 500px;
+  height: 71px;
+  font-size: var(--font-size-sm);
+  color: var(--grey);
+}
+.testimonial {
+  position: absolute;
+  top: 3123px;
+  left: 0;
+  width: 1340px;
+  height: 573px;
+  font-size: 25px;
+}
+.b,
+.highly-verified {
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 40px;
+}
+.highly-verified {
+  font-size: var(--font-size-xs);
+  line-height: 16px;
+  color: var(--grey);
+  text-align: center;
+}
+.parent,
+.verified-specialist-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.verified-specialist-parent {
+  font-size: var(--font-size-sm);
+}
+.parent {
+  position: absolute;
+  top: 50px;
+  left: 78px;
+  gap: var(--gap-xs);
+}
+.card-child,
+.card-inner {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 287px;
+}
+.card-inner {
+  border-radius: 0 0 var(--br-3xs) var(--br-3xs);
+  background-color: var(--white);
+  box-shadow: 0 10px 40px rgba(18, 18, 18, 0.1);
+  height: 190px;
+  overflow: hidden;
+}
+.card-child {
+  background-color: var(--primary);
+  height: 3px;
+}
+.card {
+  position: relative;
+  width: 287px;
+  height: 193px;
+}
+.group {
+  top: 50px;
+  left: 80px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.card-parent,
+.container,
+.group {
+  position: absolute;
+  display: flex;
+}
+.container {
+  top: 50px;
+  left: 79px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.card-parent {
+  top: 160px;
+  left: 0;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.were-employee-benefit-container {
+  position: relative;
+  font-size: var(--font-size-13xl);
+  letter-spacing: 0.02em;
+  line-height: 40px;
+  color: var(--black);
+  text-align: center;
+}
+.our-rating-parent {
+  position: absolute;
+  top: 0;
+  left: 252px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-sm);
+  color: var(--primary);
+}
+.our-rating {
+  position: absolute;
+  top: 2620px;
+  left: 259px;
+  width: 921px;
+  height: 353px;
+  font-size: var(--font-size-13xl);
+}
+.make-a-shedule {
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 20px;
+}
+.make-a-schedule-container {
+  position: relative;
+  font-size: var(--font-size-13xl);
+  letter-spacing: 0.02em;
+  line-height: 40px;
+  color: var(--black);
+}
+.make-a-shedule-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.healthcare-is-a-container {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 20px;
+  color: var(--grey);
+}
+.frame-child {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.group-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.easy-to-connect {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 20px;
+  font-weight: 600;
+}
+.frame-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  color: var(--black);
+}
+.make-schedule-now {
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 20px;
+  font-weight: 500;
+}
+.make-schedule-now-wrapper {
+  border-radius: var(--br-3xs);
+  background-color: var(--primary);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-17xl);
+  font-size: var(--font-size-base);
+  color: var(--white);
+}
+.frame-group {
+  position: absolute;
+  top: 0;
+  left: 687px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+}
+.schedule-section-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 626px;
+  height: 401px;
+  object-fit: cover;
+}
+.schedule-section {
+  position: absolute;
+  top: 2069px;
+  left: 102px;
+  width: 1159px;
+  height: 401px;
+  color: var(--primary);
+}
+.text {
+  position: absolute;
+  top: 80px;
+  left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+}
+.find-doctor-section-child {
+  position: absolute;
+  top: 216px;
+  left: 764px;
+  border-radius: 50%;
+  background-color: var(--primary);
+  width: 803px;
+  height: 803px;
+}
+.female-doctor-fococlipping-rem-icon {
+  position: absolute;
+  top: 81px;
+  left: 865px;
+  width: 516px;
+  height: 609px;
+  object-fit: cover;
+}
+.select-doctors {
+  position: relative;
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.03em;
+  line-height: 16px;
+  color: var(--grey);
+}
+.available-doctors-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mask-group-icon {
+  position: relative;
+  width: 46px;
+  height: 46px;
+  object-fit: cover;
+}
+.mask-group-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-sm);
+}
+.frame-parent2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.find-doctor1 {
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 16px;
+  font-weight: 500;
+}
+.avail-doctor,
+.find-doctor-wrapper {
+  border-radius: var(--br-3xs);
+  display: flex;
+}
+.find-doctor-wrapper {
+  background-color: var(--color-aliceblue);
+  width: 142px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  box-sizing: border-box;
+  font-size: var(--font-size-xs);
+  color: var(--primary);
+}
+.avail-doctor {
+  position: absolute;
+  top: 116px;
+  left: 764px;
+  background-color: var(--white);
+  box-shadow: -4px -10px 50px rgba(18, 18, 18, 0.1);
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 18px 30px;
+  gap: var(--gap-xl);
+  color: var(--black);
+}
+.find-doctor-section {
+  position: absolute;
+  top: 1249px;
+  left: 0;
+  width: 1440px;
+  height: 670px;
+  overflow: hidden;
+  color: var(--primary);
+}
+.check-health-complaints,
+.check-the-disease-container {
+  position: absolute;
+  top: 46.02%;
+  left: 13.94%;
+  letter-spacing: 0.03em;
+  line-height: 28px;
+}
+.check-the-disease-container {
+  top: 63.72%;
+  font-size: var(--font-size-xs);
+  line-height: 16px;
+  color: var(--grey);
+}
+.iconlybulksearch {
+  position: absolute;
+  height: 17.7%;
+  width: 13.94%;
+  top: 22.12%;
+  right: 72.13%;
+  bottom: 60.18%;
+  left: 13.94%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.check-health-complaints-parent {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  border-radius: 0 0 var(--br-3xs) var(--br-3xs);
+  background-color: var(--white);
+  box-shadow: 0 10px 40px rgba(18, 18, 18, 0.1);
+  width: 287px;
+  height: 226px;
+  overflow: hidden;
+}
+.card3,
+.card4,
+.card5 {
+  position: absolute;
+  top: 121px;
+  left: 0;
+  width: 287px;
+  height: 229px;
+}
+.card4,
+.card5 {
+  top: 120px;
+  left: 317px;
+}
+.card5 {
+  top: 121px;
+  left: 634px;
+}
+.get-your-solutions {
+  position: absolute;
+  top: 46.02%;
+  left: 13.94%;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.03em;
+  line-height: 28px;
+  color: var(--black);
+}
+.after-conducting-an-container {
+  position: absolute;
+  top: 63.72%;
+  left: 13.94%;
+  letter-spacing: 0.03em;
+  line-height: 16px;
+}
+.card6,
+.title1 {
+  position: absolute;
+}
+.card6 {
+  top: 121px;
+  left: 951px;
+  width: 287px;
+  height: 229px;
+  font-size: var(--font-size-xs);
+  color: var(--grey);
+}
+.title1 {
+  top: 0;
+  left: 355px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  color: var(--primary);
+}
+.header-child,
+.step-section {
+  position: absolute;
+  top: 799px;
+  left: 100px;
+  width: 1238px;
+  height: 350px;
+}
+.header-child {
+  top: 308px;
+  left: 607px;
+  border-radius: 50%;
+  background-color: var(--primary);
+  width: 1240px;
+  height: 1240px;
+}
+.card-profile-doctor-child {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.dr-shimanta-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.make-schedule {
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 16px;
+  font-weight: 600;
+}
+.make-schedule-wrapper {
+  border-radius: var(--br-3xs);
+  background-color: var(--primary);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+  font-size: var(--font-size-xs);
+  color: var(--white);
+}
+.card-profile-doctor {
+  position: absolute;
+  top: 436px;
+  left: 734px;
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  box-shadow: 0-24px 34px rgba(199, 201, 217, 0.15);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base);
+  gap: var(--gap-3xs);
+}
+.female-doctor-fococlipping-rem-icon1 {
+  position: absolute;
+  top: 109px;
+  left: 702px;
+  width: 885px;
+  height: 590px;
+  object-fit: cover;
+}
+.medical-care-now-container {
+  position: absolute;
+  top: 184px;
+  left: 100px;
+  font-size: 54px;
+  letter-spacing: 0.02em;
+  line-height: 70px;
+}
+.health-carely-is-container {
+  position: absolute;
+  top: 350px;
+  left: 101px;
+  letter-spacing: 0.03em;
+  line-height: 20px;
+  color: var(--grey);
+}
+.btn-primary,
+.healhtycarely-group,
+.home-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.btn-primary {
+  position: absolute;
+  top: 436px;
+  left: 100px;
+  border-radius: var(--br-3xs);
+  background-color: var(--primary);
+  align-items: center;
+  padding: var(--padding-base) var(--padding-17xl);
+  font-size: var(--font-size-base);
+  color: var(--white);
+}
+.healhtycarely-group,
+.home-group {
+  gap: var(--gap-21xl);
+}
+.home-group {
+  align-items: flex-start;
+  font-size: var(--font-size-sm);
+}
+.healhtycarely-group {
+  align-items: center;
+}
+.sign-up-wrapper {
+  border-radius: var(--br-3xs);
+  background-color: var(--primary);
+  justify-content: center;
+  padding: 12px 22px;
+  color: var(--white);
+}
+.navbar,
+.sign-in-parent,
+.sign-up-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.sign-in-parent {
+  justify-content: center;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-sm);
+}
+.navbar {
+  position: absolute;
+  top: 40px;
+  left: 100px;
+  width: 1240px;
+  justify-content: space-between;
+  font-size: var(--font-size-5xl);
+}
+.download-1-icon,
+.download-7-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+}
+.download-1-icon {
+  top: 37px;
+  left: 831px;
+  width: 230px;
+  height: 35px;
+}
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 699px;
+  overflow: hidden;
+}
+.landing-page {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  height: 4175px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--black);
+  font-family: var(--font-manrope);
+}
